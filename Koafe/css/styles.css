@@ -221,14 +221,6 @@ body {
     cursor: pointer;
 }
 
-.koafe-d9ianck div:before {
-    content: 'Test';
-}
-
-.koafe-d9ianck div:after {
-    content: 'Test2';
-}
-
 /* Colors */
 
 #main-red {
