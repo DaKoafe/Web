@@ -195,7 +195,6 @@ body {
 }
 
 .koafe-el9i1nsks ul li:hover:before {
-    content: "Koafe";
     background: var(--main-red);
     color: var(--main-text);
     scale: 1.2;
@@ -204,7 +203,6 @@ body {
 }
 
 .koafe-el9i1nsks ul li:hover:after {
-    content: "Koaf";
     background: var(--main-red);
     color: var(--main-text);
     scale: 1.2;
@@ -224,7 +222,11 @@ body {
 }
 
 .koafe-d9ianck div:before {
-    content: 'Test'
+    content: 'Test';
+}
+
+.koafe-d9ianck div:after {
+    content: 'Test2';
 }
 
 /* Colors */
