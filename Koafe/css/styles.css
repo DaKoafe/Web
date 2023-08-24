@@ -82,6 +82,7 @@ body {
     width: 120px;
     height: 120px;
     transition: .3s ease-in-out;
+    border: 1px solid var(--main-red);
 }
 
 .koafe-c0aer4211d h2 {
@@ -193,7 +194,17 @@ body {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1) !important;
 }
 
-.koafe-el9i1nsks ul li:hover {
+.koafe-el9i1nsks ul li:hover:before {
+    content: "Koafe";
+    background: var(--main-red);
+    color: var(--main-text);
+    scale: 1.2;
+    transition: .3s ease-in-out;
+    border: 1px solid var(--main-red);
+}
+
+.koafe-el9i1nsks ul li:hover:after {
+    content: "Koaf";
     background: var(--main-red);
     color: var(--main-text);
     scale: 1.2;
