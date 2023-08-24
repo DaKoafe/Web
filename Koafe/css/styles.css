@@ -223,6 +223,10 @@ body {
     cursor: pointer;
 }
 
+.koafe-d9ianck div:before {
+    content: 'Test'
+}
+
 /* Colors */
 
 #main-red {
